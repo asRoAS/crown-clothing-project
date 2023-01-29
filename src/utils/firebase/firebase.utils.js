@@ -56,6 +56,7 @@ export const createUserDocumentFromAuth = async (userAuth) => {
     }
 
     // if user data exists
+    // return userDocRef
     return userDocRef;
 
   }
